@@ -6,14 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class HomeActivity extends AppCompatActivity {
+public class CompanyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_company);
     }
-    public void onClickPurchase(View view) {
-        startActivity(new Intent(HomeActivity.this,PurchaseActivity.class));
+    public void onClickAddItem(View view) {
+        startActivity(new Intent(CompanyActivity.this,AddItemActivity.class));
     }
 }

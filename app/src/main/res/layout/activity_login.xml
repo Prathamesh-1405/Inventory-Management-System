@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg3_scm"
+    android:background="@drawable/back2"
     tools:context=".LoginActivity">
 
     <TextView
@@ -31,12 +31,12 @@
         android:drawablePadding="10dp"
         android:ems="10"
 
+        android:hint="Password"
         android:inputType="textPassword"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:hint="Password"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="20sp"
@@ -53,12 +53,12 @@
         android:drawableLeft="@drawable/ic_baseline_person_outline_24"
         android:drawablePadding="10dp"
         android:ems="10"
+        android:hint="Username"
         android:inputType="textPersonName"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
-        android:hint="Username"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="20sp"
